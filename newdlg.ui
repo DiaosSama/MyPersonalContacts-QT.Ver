@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewDlg</class>
+ <widget class="QDialog" name="NewDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>231</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="classmateBtn">
+      <property name="text">
+       <string>同学</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="teammateBtn">
+      <property name="text">
+       <string>同事</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="friendBtn">
+      <property name="text">
+       <string>朋友</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="relativeBtn">
+      <property name="text">
+       <string>亲戚</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;张海山锐线体简&quot;;</string>
+   </property>
+   <property name="text">
+    <string>请选择新建的类别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>280</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>exitBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>NewDlg</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>286</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>38</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

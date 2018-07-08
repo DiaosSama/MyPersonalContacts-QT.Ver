@@ -1,0 +1,25 @@
+#ifndef MYHEAD_H
+#define MYHEAD_H
+
+#endif // MYHEAD_H
+#include"Person.h"
+#include"Friend.h"
+#include"Function.h"
+#include"Relative.h"
+#include"Teammate.h"
+#include"Classmate.h"
+#include"cminfodlg.h"
+#include"logdlg.h"
+#include"newdlg.h"
+#include"tminfodlg.h"
+#include"fdinfodlg.h"
+#include"rtinfodlg.h"
+#include"finddlg.h"
+#include"temp.h"
+#include"cmeditdlg.h"
+#include"tmeditdlg.h"
+#include"fdeditdlg.h"
+#include"rteditdlg.h"
+#include"countbirthdlg.h"
+#include"happydlg.h"
+#include"emaildlg.h"
